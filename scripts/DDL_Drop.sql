@@ -1,0 +1,12 @@
+﻿drop table event_venue;
+drop table venue;
+drop table participates;
+drop table likes;
+drop table groups;
+drop table comments;
+drop table organises;
+drop table event;
+drop table member;
+drop table club;
+drop table password;
+drop table student;

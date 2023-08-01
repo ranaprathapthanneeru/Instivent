@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_scrolling"
+    tools:context="com.example.rana.instivent.MyClubFragment">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Event"
+        style="@style/Widget.AppCompat.Button"
+        android:background="@color/md_blue_500"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:id="@+id/createEvent"/>
+    <ListView android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/transparent"
+        android:focusable="true"
+        android:dividerHeight="15dp"/>
+
+</LinearLayout>

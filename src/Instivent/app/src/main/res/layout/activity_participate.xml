@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="@dimen/activity_horizontal_padding"
+        android:id="@+id/textView4"
+        android:text="Enter LDAPs of Participants"
+        android:textColor="@color/colorAccent"
+        android:textSize="22sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:paddingTop="@dimen/activity_horizontal_padding"
+        android:id="@+id/textView5"
+        android:text="Group Name"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:minWidth="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit0"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:paddingTop="@dimen/activity_horizontal_padding"
+        android:id="@+id/textView6"
+        android:text="Team Mates"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:minWidth="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit1"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:minWidth="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit2"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:minWidth="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit3"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:minWidth="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit4"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:minWidth="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit5"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:minWidth="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit6"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:minWidth="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit7"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:minWidth="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit8"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:minWidth="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit9"
+        />
+    <Button
+        android:text="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        />
+
+</LinearLayout>

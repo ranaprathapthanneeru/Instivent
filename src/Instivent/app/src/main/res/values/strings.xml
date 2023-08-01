@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Instivent</string>
+    <string name="Error">Error</string>
+    <string name="ok">ok</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_signup">signup</string>
+    <string name="title_activity_clubs">clubs</string>
+    <string name="firstName">First Name:</string>
+    <string name="lastName">Last Name:</string>
+    <string name="Userid">User id:</string>
+    <string name="password">Password:</string>
+    <string name="confirmPassword">Confirm Password:</string>
+    <string name="signupButton">Sign Up</string>
+    <string name="alreadyMember">Already a member? Login</string>
+    <string name="na">NA</string>
+    <string name="status">Status</string>
+    <string name="attempt">Attempt</string>
+    <string name="previous_score">Score</string>
+    <string name="open">Open</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_clubs">No Clubs</string>
+    <string name="cd_main_image">Image</string>
+    <string name="Success">Success!</string>
+    <string name="logout">Logout</string>
+    <string name="home">Home</string>
+    <string name="clubs">Clubs</string>
+    <string name="action_settings">Settings</string>
+    <string name="no_events">No Events</string>
+    <string name="no_comments">No Comments</string>
+    <string name="my_events">My Events</string>
+</resources>
